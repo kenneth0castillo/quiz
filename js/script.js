@@ -12,3 +12,13 @@ $(document).ready(function() {
     });
 
 });
+$("#queston1").click(function{
+    var belgian == 60
+    var french == 50 
+    var chickenwaffle == 10
+    if(q1 == belgian){
+        totalScore = totalScore + 60
+    }else if(q1 == french){
+        totalScore = totalScore + 50
+    }
+})
