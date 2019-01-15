@@ -61,7 +61,7 @@ function score3(input){
     }
 }
 function megascore(){
-    var totalscore = score1("#question1") + score2("#question2") + score3("#question3")
+    var totalscore = score1($("#question1").val();) + score2($("#question2").val();) + score3($("#question3").val();)
     if(totalscore > 10){
         alert("you are a good waffle iron")
     }else{
